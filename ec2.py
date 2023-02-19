@@ -2,4 +2,5 @@ import boto3
 
 ec2=boto3.client('ec2')
 
-print(ec2.describe_instances())
+print(ec2.describe_iprint nstances())
+print("changes done")
